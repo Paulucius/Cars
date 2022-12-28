@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+body{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: bisque;
+    text-align: center;
+}
+.card{
+    display: inline-block ;
+    width: 18%;
+    height: 500px;
+    background-color: rgb(157, 125, 86);
+    text-align: center;
+    border: 1px solid rgb(63, 47, 27);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 5px ;
+    box-shadow: 2px 5px 5px rgb(71, 44, 12);
+}
+img{
+    width: 100%;
+    vertical-align: top ;
+    border-radius: 5px 5px 0px 0px;
+    height: 150px;
+    object-fit: cover;
+}
+.card a{
+    display: inline-block;
+    color: bisque;
+    background-color: rgb(108, 56, 4);
+    width: 40%;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 5px;
+    box-shadow: 2px 5px 5px rgb(65, 35, 0);
+}
+.menu{
+    padding: 10px;
+}
+.menu_item{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(157, 125, 86);
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px solid rgb(89, 68, 42);
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgb(44, 31, 15);
+}
+.table{
+    background-color: rgb(157, 125, 86);
+    border-radius: 5px;
+    border: 1px solid rgb(63, 47, 27);
+    box-shadow: 5px 5px 10px rgb(44, 31, 15);
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+
+   
+    
+    
+    
+}
+.table a{
+    display: inline-block;
+    color: bisque;
+    background-color: rgb(108, 56, 4);
+    width: 70%;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 10px;
+    box-shadow: 2px 5px 5px rgb(65, 35, 0);
+    margin: 10px;
+}
+
+.table p{
+    box-shadow: 2px 2px 3px black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+
+ }
+   
+
+
+
+.th_1{
+    background-color: red;
+   
+}
+
+.th_2{
+    background-color: rgb(164, 164, 164);
+}
+
+.th_3{
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+.th_4{
+    background-color: darkgreen;
+}
+th{
+    text-shadow: 1px 1px 2px black;
+    height: 100px;
+    font-size: 22px;
+    padding: 30px 10px 10px 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+caption{
+    font-size: 45px;
+    margin: 0px  0px 20px 0px;
+}
+td{
+    border: 1px dashed rgb(31, 8, 8);
+    border-top: none;
+    padding: 15px;
+    
+}
